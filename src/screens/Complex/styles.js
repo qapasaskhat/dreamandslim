@@ -1,0 +1,67 @@
+import {StyleSheet, Dimensions} from 'react-native';
+const {width, height} = Dimensions.get('window');
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  btn: {
+    width: width - 4,
+    height: height * 0.07,
+    borderRadius: 2,
+    borderWidth: 0.5,
+    borderColor: '#2196F5',
+    margin: 2,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#2196F5',
+    marginTop: 60,
+  },
+  btnTxt: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: '#fff',
+    lineHeight: 22,
+    letterSpacing: 0.2,
+    fontFamily: 'Montserrat',
+  },
+  text: {
+    fontSize: 16,
+    lineHeight: 20,
+    marginTop: 30,
+    textAlign: 'center',
+    fontFamily: 'Montserrat',
+  },
+  textInput: {
+    fontSize: 18,
+    lineHeight: 20,
+    fontFamily: 'Montserrat',
+    borderBottomWidth: 0.5,
+    borderBottomColor: '#2196F5',
+    width: 50,
+    height: 40,
+    textAlign: 'center',
+  },
+  modal: {
+    justifyContent: 'center',
+    margin: 0,
+    backgroundColor: '#fff',
+    position: 'absolute',
+    top: '45%',
+    left: '25%',
+    width: 200,
+    height: 200,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+    borderRadius: 6,
+    alignItems: 'center',
+  },
+});
+export default styles;

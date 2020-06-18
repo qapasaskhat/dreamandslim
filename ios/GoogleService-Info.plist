@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>854433381766-f8h84msgmkvq8sgabq3es6g1lfep6oo4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.854433381766-f8h84msgmkvq8sgabq3es6g1lfep6oo4</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>854433381766-i5gobm6m56jfkds6ciahchm1q7r3q0bl.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA-8u9wx3PgE84WkDOR-wto1s37vrIt79c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>854433381766</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.FirstProject</string>
+	<key>PROJECT_ID</key>
+	<string>dreamed-c3cbf</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dreamed-c3cbf.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:854433381766:ios:3c45b3a4162b964dc7c007</string>
+	<key>DATABASE_URL</key>
+	<string>https://dreamed-c3cbf.firebaseio.com</string>
+
+	<key>GADIsAdManagerApp</key>
+	  <true/>
+	<key>GADApplicationIdentifier</key>
+  	<string>ca-app-pub-5096918044613246~4628919348</string>
+</dict>
+</plist>

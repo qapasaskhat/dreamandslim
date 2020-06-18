@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "854433381766",
+    "firebase_url": "https://dreamed-c3cbf.firebaseio.com",
+    "project_id": "dreamed-c3cbf",
+    "storage_bucket": "dreamed-c3cbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854433381766:android:928662a3fc3d7afcc7c007",
+        "android_client_info": {
+          "package_name": "com.firstproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854433381766-i5gobm6m56jfkds6ciahchm1q7r3q0bl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firstproject",
+            "certificate_hash": "157dcb005c0b150e3f503219026ff3e365fed686"
+          }
+        },
+        {
+          "client_id": "854433381766-7rahlphj8apu0mtgbtcnqbbuq47hcrbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi3ytcIzLp2zfRRDfG1Qsx0EzAjLtYE_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854433381766-7rahlphj8apu0mtgbtcnqbbuq47hcrbb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "854433381766-f8h84msgmkvq8sgabq3es6g1lfep6oo4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.FirstProject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
