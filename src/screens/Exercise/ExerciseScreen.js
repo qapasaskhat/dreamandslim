@@ -16,7 +16,7 @@ import moment from 'moment';
 
 import Modal from 'react-native-modal';
 
-import SoundPlayer from 'react-native-sound-player'
+//import SoundPlayer from 'react-native-sound-player'
 
 const PlayPause = ({
   onpressPlayBack,
@@ -214,11 +214,7 @@ class ExerciseScreen extends React.Component {
   }
 
   saveSportData = async () => {
-    try{
-    SoundPlayer.playUrl('https://firebasestorage.googleapis.com/v0/b/dreamed-c3cbf.appspot.com/o/presto.mp3?alt=media&token=18be42e4-4a2c-427e-9bb4-6d2b5d812210')
-    }
-    catch{error=>console.log(error)
-    }
+   
 
     let id = this.props.navigation.getParam('param').map(item=>{return item.id_item})
     

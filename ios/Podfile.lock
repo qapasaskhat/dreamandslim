@@ -410,8 +410,12 @@ PODS:
     - React
   - RNScreens (2.8.0):
     - React
-  - RNSoundPlayer (0.10.4):
+  - RNSentry (1.4.5):
     - React
+    - Sentry (~> 5.1.4)
+  - Sentry (5.1.4):
+    - Sentry/Core (= 5.1.4)
+  - Sentry/Core (5.1.4)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -478,7 +482,7 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
-  - RNSoundPlayer (from `../node_modules/react-native-sound-player`)
+  - "RNSentry (from `../node_modules/@sentry/react-native`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -512,6 +516,7 @@ SPEC REPOS:
     - OpenSSL-Universal
     - PromisesObjC
     - Protobuf
+    - Sentry
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -585,8 +590,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
-  RNSoundPlayer:
-    :path: "../node_modules/react-native-sound-player"
+  RNSentry:
+    :path: "../node_modules/@sentry/react-native"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -655,10 +660,11 @@ SPEC CHECKSUMS:
   RNGestureHandler: 8f09cd560f8d533eb36da5a6c5a843af9f056b38
   RNReanimated: b5ccb50650ba06f6e749c7c329a1bc3ae0c88b43
   RNScreens: 62211832af51e0aebcf6e8c36bcf7dd65592f244
-  RNSoundPlayer: b55bbb1b4cbf8b3f2c81db622d9db4b305407f5b
+  RNSentry: 0a70359ddacbfb9b1cbbb0971e54065b9f70ac57
+  Sentry: 74f2ad93a20a5567a1badaedf5b3f60b142ad082
   Yoga: 3ebccbdd559724312790e7742142d062476b698e
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 9a3f18a3fcbb950819411583a55ab948a1aa2139
+PODFILE CHECKSUM: 22900a0fc6c848db0fc87f6ae0df8fbd69cb0a7d
 
 COCOAPODS: 1.9.3

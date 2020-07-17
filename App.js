@@ -16,11 +16,14 @@ import store from './src/api/store'
 //import { fcmService } from './src/notify/FCMService'
 //import { localNotificationService } from "./src/notify/LocalNotificationService";
 
+
 class App extends React.Component{
+ 
   componentDidMount=()=>{
     this.createNotificationChannel()
     this.checkPermission()
   }
+
   createNotificationChannel = () => {
     // Build a android notification channel
     const channel = new firebase.notifications.Android.Channel(

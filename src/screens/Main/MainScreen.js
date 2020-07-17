@@ -123,9 +123,7 @@ onOpenNotification(notify){
     const request = new AdRequest();
 
     const unitId =
-      Platform.OS === 'ios'
-        ? 'ca-app-pub-5096918044613246/4054010755'
-        : 'ca-app-pub-5096918044613246/5558664119';
+      Platform.OS === 'android' && 'ca-app-pub-5096918044613246/5558664119';
     return (
       <>
         <StatusBar barStyle="dark-content" backgroundColor="#fff"/>
@@ -138,7 +136,7 @@ onOpenNotification(notify){
          <ActivityIndicator color='#2196F5' />
        </View>
        : <SafeAreaView style={styles.container}>
-        {/* <Banner
+        { <Banner
           unitId={unitId}
           size='SMART_BANNER'
           request={request.build()}
@@ -148,7 +146,7 @@ onOpenNotification(notify){
           onAdFailedToLoad={(error)=>{
             console.log(error.message)
           }}
-        /> */}
+        /> }
           <ScrollView>
           <Card 
             text={'text'}
